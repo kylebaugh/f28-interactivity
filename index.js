@@ -1,6 +1,6 @@
 console.log('JS connected!')
 
-let couter = document.querySelector('#counter')
+let counter = document.querySelector('#counter')
 
 // Step 1: Grab HTML element
 
@@ -47,7 +47,8 @@ const decrease = () => {
 minusBtn.addEventListener('click', decrease)
 
 
-// Finally, select the reset-btn and set count to 0
+// Give them 5 minutes to try and setup the reset button
+// Show them how after the time has elapsed -- select the reset-btn and set count to 0
 
 let resetBtn = document.querySelector('#reset-btn')
 
@@ -76,9 +77,12 @@ resetBtn.addEventListener('click', reset)
 
 // Huzzah! This was a crash code for events in JS
 
+
+
 // Next, we need to select all of our theme buttons. Ask them which selector we'd use to SELECT ALL elements of a certain class
 
-// Create variable for themed buttons and select them. Ask them what data type we'll themeButtons will be (a node list aka an array of nodes)
+// Create variable for themed buttons and select them. Ask them what data type we'll themeButtons will be 
+// (a node list aka an array of nodes)
 
 const themeButtons = document.querySelectorAll(".theme-buttons")
 
